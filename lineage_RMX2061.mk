@@ -18,6 +18,9 @@ TARGET_SUPPORTS_QUICK_TAP := true
 #AOSP Recovery
 TARGET_USES_AOSP_RECOVERY := true
 
+# NFC
+BOARD_HAS_NFC := false
+
 # Inherit some common Lineage stuff
 $(call inherit-product, vendor/lineage/config/common_full_phone.mk)
 
