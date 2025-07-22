@@ -12,8 +12,14 @@ TARGET_BOOT_ANIMATION_RES := 1080
 TARGET_SCREEN_HEIGHT := 2400
 TARGET_SCREEN_WIDTH := 1080
 
+# Whether you are compiling being an OFFICIAL Maintainer:
+INFINITY_BUILD_TYPE := UNOFFICIAL
+
 # Target
 TARGET_SUPPORTS_QUICK_TAP := true
+
+# Gapps
+WITH_GAPPS := true
 
 #AOSP Recovery
 TARGET_USES_AOSP_RECOVERY := true
@@ -21,11 +27,14 @@ TARGET_USES_AOSP_RECOVERY := true
 # NFC
 BOARD_HAS_NFC := false
 
+# Maintainer Name
+INFINITY_MAINTAINER := AMIN FAUZI
+
 # Inherit some common Lineage stuff
-$(call inherit-product, vendor/lineage/config/common_full_phone.mk)
+$(call inherit-product, vendor/infinity/config/common_full_phone.mk)
 
 # Device identifier
-PRODUCT_NAME := lineage_RMX2061
+PRODUCT_NAME := infinity_RMX2061
 PRODUCT_DEVICE := RMX2061
 PRODUCT_BRAND := realme
 PRODUCT_MODEL := realme 6 Pro

@@ -1,2 +1,9 @@
 # Display
 vendor.display.svi.config_path=/vendor/etc/svi_config_19720.xml
+
+# ProjectInfinityX
+ro.product.marketname=realme 6 Pro
+ro.infinity.soc=Snapdragon 720G
+ro.infinity.battery=4300 mAh
+ro.infinity.display=2400 x 1080 (20:9), 90 Hz
+ro.infinity.camera=64MP + 12MP + 8MP + 2MP
