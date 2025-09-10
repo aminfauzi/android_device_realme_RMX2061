@@ -13,7 +13,7 @@ TARGET_SCREEN_HEIGHT := 2400
 TARGET_SCREEN_WIDTH := 1080
 
 # Whether you are compiling being an OFFICIAL Maintainer:
-INFINITY_BUILD_TYPE := UNOFFICIAL
+INFINITY_BUILD_TYPE := OFFICIAL
 
 # Target
 TARGET_SUPPORTS_QUICK_TAP := true
@@ -28,7 +28,7 @@ TARGET_USES_AOSP_RECOVERY := true
 BOARD_HAS_NFC := false
 
 # Maintainer Name
-INFINITY_MAINTAINER := AMIN FAUZI
+INFINITY_MAINTAINER := AminFauzi
 
 # Inherit some common Lineage stuff
 $(call inherit-product, vendor/infinity/config/common_full_phone.mk)
