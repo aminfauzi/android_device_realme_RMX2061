@@ -19,7 +19,7 @@ TARGET_SUPPORTS_QUICK_TAP := true
 TARGET_USES_AOSP_RECOVERY := true
 
 # NFC
-BOARD_HAS_NFC := false
+BOARD_HAS_NFC := true
 
 # Inherit some common Lineage stuff
 $(call inherit-product, vendor/lineage/config/common_full_phone.mk)
