@@ -6,7 +6,7 @@
     "branch": "16.0"
   },
   {
-    "repository": "device_realme_sm7125-common",
+    "repository": "android_device_realme_sm7125-common",
     "target_path": "device/realme/sm7125-common",
     "remote": "amin",
     "branch": "16.0"
