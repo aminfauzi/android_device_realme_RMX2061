@@ -7,6 +7,11 @@
 # Inherit from RMX2061 device
 $(call inherit-product, device/realme/RMX2061/device.mk)
 
+# Afterlife Flags
+AFTERLIFE_MAINTAINER := AminFauzi
+USE_PIXEL_CHARGING := true
+AFTERLIFE_GAPPS := full
+
 # Bootanimation Resolution
 TARGET_BOOT_ANIMATION_RES := 1080
 TARGET_SCREEN_HEIGHT := 2400
@@ -21,11 +26,11 @@ TARGET_USES_AOSP_RECOVERY := true
 # NFC
 BOARD_HAS_NFC := true
 
-# Inherit some common Lineage stuff
-$(call inherit-product, vendor/lineage/config/common_full_phone.mk)
+# Inherit some common Afterlife OS stuff
+$(call inherit-product, vendor/afterlife/config/common_full_phone.mk)
 
 # Device identifier
-PRODUCT_NAME := lineage_RMX2061
+PRODUCT_NAME := afterlife_RMX2061
 PRODUCT_DEVICE := RMX2061
 PRODUCT_BRAND := realme
 PRODUCT_MODEL := realme 6 Pro
