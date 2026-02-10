@@ -26,7 +26,7 @@ TARGET_SHIPS_FULL_GAPPS := true
 TARGET_USES_AOSP_RECOVERY := true
 
 # NFC
-BOARD_HAS_NFC := false
+BOARD_HAS_NFC := true
 
 # Maintainer Name
 INFINITY_MAINTAINER := AminFauzi
