@@ -12,6 +12,9 @@ TARGET_BOOT_ANIMATION_RES := 1080
 TARGET_SCREEN_HEIGHT := 2400
 TARGET_SCREEN_WIDTH := 1080
 
+# GMS
+WITH_GMS := true
+
 # Target
 TARGET_SUPPORTS_QUICK_TAP := true
 
@@ -20,6 +23,13 @@ TARGET_USES_AOSP_RECOVERY := true
 
 # NFC
 BOARD_HAS_NFC := true
+
+# Refresh Rate
+TARGET_SUPPORTED_REFRESH_RATES := 60,90
+
+# Surfaceflinger
+$(call soong_config_set,surfaceflinger,frame_rate_category_high,90)
+$(call soong_config_set,surfaceflinger,frame_rate_category_min,60)
 
 # Inherit some common Lineage stuff
 $(call inherit-product, vendor/lineage/config/common_full_phone.mk)

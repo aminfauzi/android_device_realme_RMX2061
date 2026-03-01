@@ -1,2 +1,4 @@
 # Display
 vendor.display.svi.config_path=/vendor/etc/svi_config_19720.xml
+
+ro.lunaris.maintainer=Amin Fauzi
