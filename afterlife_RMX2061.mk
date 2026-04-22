@@ -10,7 +10,7 @@ $(call inherit-product, device/realme/RMX2061/device.mk)
 # Afterlife Flags
 AFTERLIFE_MAINTAINER := AminFauzi
 USE_PIXEL_CHARGING := true
-AFTERLIFE_GAPPS := full
+AFTERLIFE_GAPPS := true
 
 # Bootanimation Resolution
 TARGET_BOOT_ANIMATION_RES := 1080
